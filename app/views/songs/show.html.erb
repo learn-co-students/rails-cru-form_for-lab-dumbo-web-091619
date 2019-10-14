@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head><title><%=@song.name%></title></head>
+<body>
+<h1><%= @song.name %></h1><br>
+<p><%= link_to @genre.name, genre_path(@genre) %></p>
+<p><%= link_to @artist.name, artist_path(@artist) %></p>
+</body>
+</html>
